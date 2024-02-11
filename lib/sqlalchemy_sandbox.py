@@ -154,6 +154,8 @@ if __name__ == '__main__':
 
     # print(albert_einstein)
 
+    # The below strategy will delete all records returned by your query, so be careful!
+
     query = session.query(
         Student).filter(
             Student.name == "Albert Einstein")
